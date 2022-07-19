@@ -1,0 +1,35 @@
+OPT:
+  lr: 0.0001
+  betas: [0.5,0.999]
+
+NET:
+  img_ch: 3
+  net_ch: 128
+
+DESC:
+  - test
+  - modify
+
+TRAIN:
+  losses:
+    - ssim11
+    - mse
+
+  iter_per_scale: 100
+  pixel_shuffle_p: 0.005
+
+OPTIMIZE:
+  epoch: 5
+  opt_iter: 100
+
+INPUTS:
+  raw:
+    img_path: /mnt/e/PyCharmProjects/underwater/inputs/SinCycleTests/raw/blur_fish.png
+    img_shape: 320
+    # scale_factor: 1
+    # scale_num: 2
+  ref: 
+    img_path: /mnt/e/PyCharmProjects/underwater/inputs/SinCycleTests/ref/yellow_fish.png
+    img_shape: 320
+    # scale_factor: 1
+    # scale_num: 2

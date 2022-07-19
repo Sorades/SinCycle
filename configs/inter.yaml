@@ -1,0 +1,6 @@
+DESC:
+  - TEST-0718
+
+INPUTS:
+  img_path: 
+    - /mnt/e/PyCharmProjects/underwater/inputs/SinCycleTests/ref/yellow_fish.png

@@ -1,0 +1,14 @@
+DESC:
+  - photo_st
+
+DATASET:
+  img_path: /mnt/e/PyCharmProjects/underwater/inputs/SinCycleTests/ref/yellow_fish.png
+  # ---------------------------------------------------------------------------
+  # by specifying 'img_shape', the image will be resized before inference
+
+  # img_shape: [480, 320]   # the training image will be resized to (480, 320)
+
+  # img_shape: 512          # the training image will be resized,
+                            #     and the longer side will be 480px,
+                            #     keeping the original aspect ratio
+  # ---------------------------------------------------------------------------
