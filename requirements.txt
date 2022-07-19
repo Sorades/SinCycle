@@ -1,0 +1,6 @@
+scipy==1.7.3
+torchvision==0.8.2
+torch==1.7.1
+numpy==1.22.3
+Pillow==9.0.1
+PyYAML==6.0
